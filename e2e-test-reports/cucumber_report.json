@@ -4,22 +4,22 @@
     "elements": [
       {
         "description": "",
-        "id": "validate-if-the-user-is-able-to-create-a-board.;succesful-new-user-board-creation.",
+        "id": "validate-if-the-user-is-able-to-create-a-board.;try-new-user-board-creation.",
         "keyword": "Scenario Outline",
         "line": 8,
-        "name": "Succesful new User board creation.",
+        "name": "Try new User board creation.",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 10,
-            "name": "User with id and token exists and have a list of boards",
+            "name": "User with id and token exists and has a list of boards",
             "match": {
-              "location": "e2e\\features\\step_definition\\datosUser.steps.js:16"
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 376000000
+              "duration": 375000000
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 11,
             "name": "A POST request is made to create a new board named: Challenge",
             "match": {
-              "location": "e2e\\features\\step_definition\\datosUser.steps.js:35"
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 370000000
+              "duration": 418000000
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 12,
             "name": "Get the HTTP status code 200",
             "match": {
-              "location": "e2e\\features\\step_definition\\datosUser.steps.js:76"
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:91"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 3000000
             }
           }
         ],
@@ -54,22 +54,22 @@
       },
       {
         "description": "",
-        "id": "validate-if-the-user-is-able-to-create-a-board.;succesful-new-user-board-creation.",
+        "id": "validate-if-the-user-is-able-to-create-a-board.;try-new-user-board-creation.",
         "keyword": "Scenario Outline",
         "line": 8,
-        "name": "Succesful new User board creation.",
+        "name": "Try new User board creation.",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 10,
-            "name": "User with id and token exists and have a list of boards",
+            "name": "User with id and token exists and has a list of boards",
             "match": {
-              "location": "e2e\\features\\step_definition\\datosUser.steps.js:16"
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 282000000
+              "duration": 301000000
             }
           },
           {
@@ -78,11 +78,11 @@
             "line": 11,
             "name": "A POST request is made to create a new board named: ",
             "match": {
-              "location": "e2e\\features\\step_definition\\datosUser.steps.js:55"
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 272000000
+              "duration": 249000000
             }
           },
           {
@@ -91,7 +91,7 @@
             "line": 12,
             "name": "Get the HTTP status code 400",
             "match": {
-              "location": "e2e\\features\\step_definition\\datosUser.steps.js:76"
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:91"
             },
             "result": {
               "status": "passed",
