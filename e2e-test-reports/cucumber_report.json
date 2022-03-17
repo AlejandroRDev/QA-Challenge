@@ -1,0 +1,113 @@
+[
+  {
+    "description": "    As a QA Engineer this REST API testing involves testing of CRUD (Create-Read-Update-Delete) \n    actions with methods POST and GET respectively.",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-if-the-user-is-able-to-create-a-board.;succesful-new-user-board-creation.",
+        "keyword": "Scenario Outline",
+        "line": 8,
+        "name": "Succesful new User board creation.",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User with id and token exists and have a list of boards",
+            "match": {
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "A POST request is made to create a new board named: Challenge",
+            "match": {
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Get the HTTP status code 200",
+            "match": {
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-if-the-user-is-able-to-create-a-board.;succesful-new-user-board-creation.",
+        "keyword": "Scenario Outline",
+        "line": 8,
+        "name": "Succesful new User board creation.",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User with id and token exists and have a list of boards",
+            "match": {
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "A POST request is made to create a new board named: ",
+            "match": {
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Get the HTTP status code 400",
+            "match": {
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-if-the-user-is-able-to-create-a-board.",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Validate if the user is able to create a board.",
+    "tags": [],
+    "uri": "e2e\\features\\step_definition\\datosUser.feature"
+  }
+]

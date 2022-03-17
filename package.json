@@ -1,0 +1,21 @@
+{
+  "name": "cucumberdemoreal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e-test": "cucumber-js e2e --format json:e2e-test-reports/cucumber_report.json",
+    "e2e-test-report": "node e2e/generate-reports"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
