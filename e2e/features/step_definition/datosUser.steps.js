@@ -91,6 +91,6 @@ When("A POST request is made to create a new board named: ", async function () {
 Then("Get the HTTP status code {int}", function (statusCode) {
   console.log("statusCode of POST method:", statusCode);
 
-  return expect(isValidPost(statusCode)).to.be.equal(isValidPost(statusCode));
+  return expect(statusCode).to.be.equal(isValidPost(statusCode));
 });
 
