@@ -12,7 +12,7 @@ setDefaultTimeout(60 * 1000);
 
 
 let statusCode;
-let badStatusCode;
+
 
 function isValidPost(statusCode) {
   console.log(statusCode)
@@ -83,8 +83,7 @@ When("A POST request is made to create a new board named: ", async function () {
       return (statusCode = JSON.stringify(response.status));
     })
     .catch(function (error) {
-      return (badStatusCode = error.request);
-      console.log(error.request);
+      return error
     });
 });
 

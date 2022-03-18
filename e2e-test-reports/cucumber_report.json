@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 369000000
+              "duration": 371000000
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 386000000
+              "duration": 371000000
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 12,
             "name": "Get the HTTP status code 200",
             "match": {
-              "location": "e2e\\features\\step_definition\\datosUser.steps.js:91"
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:90"
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 5000000
             }
           }
         ],
@@ -69,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 292000000
+              "duration": 289000000
             }
           },
           {
@@ -82,7 +82,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 247000000
+              "duration": 244000000
             }
           },
           {
@@ -91,7 +91,7 @@
             "line": 12,
             "name": "Get the HTTP status code 400",
             "match": {
-              "location": "e2e\\features\\step_definition\\datosUser.steps.js:91"
+              "location": "e2e\\features\\step_definition\\datosUser.steps.js:90"
             },
             "result": {
               "status": "passed",
